@@ -1,6 +1,6 @@
 {
 	"name": "zcash_mainnet",
-    "symbol": "taz",
+    "symbol": "zec",
     "algorithm": "equihash",
 
     "payFoundersReward": true,
