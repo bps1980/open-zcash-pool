@@ -3,7 +3,7 @@
 	"coin": "zec",
 	"name": "main",
 	"instanceId": 1,
-	"poolAddress": "tmGoHHqgsCRuEna9YQX9zKp9ujeqGLMLEYi",
+	"poolAddress": "t1QzJurpzyyhE9vMd6tWV4rS5mAgFiWYMoa",
 
 	"proxy": {
 		"enabled": true,
@@ -27,7 +27,7 @@
 		},
 
 		"policy": {
-			"workers": 8,
+			"workers": 500,
 			"resetInterval": "60m",
 			"refreshInterval": "1m",
 
@@ -66,12 +66,12 @@
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://yourZcashNodeUsername:yourZcashNodePassword@127.0.0.1:18232",
+			"url": "http://bps_main:root@127.0.0.1:18232",
 			"timeout": "10s"
 		},
 		{
 			"name": "backup",
-			"url": "http://yourZcashNodeUsername:yourZcashNodePassword@127.0.0.2:18232",
+			"url": "http://bps_test:root@127.0.0.2:18232",
 			"timeout": "10s"
 		}
 	],
@@ -80,19 +80,19 @@
 		"endpoint": "127.0.0.1:6379",
 		"poolSize": 10,
 		"database": 0,
-		"password": ""
+		"password": "root"
 	},
 
 	"unlocker": {
 		"enabled": true,
 		"poolFee": 0,
-		"poolFeeAddress": "",
+		"poolFeeAddress": "t1SB1f1gu1dEtDWULoWBcLpMVJqKHPv3ySR",
 		"donate": false,
 		"depth": 100,
 		"immatureDepth": 20,
 		"keepTxFees": false,
 		"interval": "10m",
-		"daemon": "http://yourZcashNodeUsername:yourZcashNodePassword@127.0.0.1:18232",
+		"daemon": "http://bps_main:root@127.0.0.1:18232",
 		"timeout": "10s"
 	}
 }
