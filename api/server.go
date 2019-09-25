@@ -11,8 +11,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/jkkgbe/open-zcash-pool/storage"
-	"github.com/jkkgbe/open-zcash-pool/util"
+	"github.com/bps1980/zcash_bps/storage"
+	"github.com/bps1980/zcash_bps/util"
 )
 
 type ApiConfig struct {
