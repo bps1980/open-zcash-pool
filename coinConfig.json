@@ -1,5 +1,5 @@
 {
-	"name": "zcash_testnet",
+	"name": "zcash_mainnet",
     "symbol": "taz",
     "algorithm": "equihash",
 
