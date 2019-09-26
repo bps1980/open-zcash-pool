@@ -1,9 +1,9 @@
 package proxy
 
 import (
-	"github.com/jkkgbe/open-zcash-pool/api"
-	"github.com/jkkgbe/open-zcash-pool/payouts"
-	"github.com/jkkgbe/open-zcash-pool/storage"
+	"github.com/bps1980/zcash_bps/api"
+	"github.com/bps1980/zcash_bps/payouts"
+	"github.com/bps1980/zcash_bps/storage"
 )
 
 type Config struct {
