@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/jkkgbe/open-zcash-pool/equihash"
-	"github.com/jkkgbe/open-zcash-pool/util"
+	"github.com/bps1980/zcash_bps/equihash"
+	"github.com/bps1980/zcash_bps/util"
 )
 
 func (proxyServer *ProxyServer) processShare(session *Session, id string, params []string) (bool, *ErrorReply) {
