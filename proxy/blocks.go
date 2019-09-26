@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/jkkgbe/open-zcash-pool/merkleTree"
-	"github.com/jkkgbe/open-zcash-pool/transaction"
-	"github.com/jkkgbe/open-zcash-pool/util"
+	"github.com/bps1980/zcash_bps/merkleTree"
+	"github.com/bps1980/zcash_bps/transaction"
+	"github.com/bps1980/zcash_bps/util"
 )
 
 type Transaction struct {
