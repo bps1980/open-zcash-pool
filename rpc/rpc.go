@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/jkkgbe/open-zcash-pool/util"
+	"github.com/bps1980/zcash_bps/util"
 )
 
 type Tx struct {
