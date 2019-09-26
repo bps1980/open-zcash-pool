@@ -4,7 +4,7 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/jkkgbe/open-zcash-pool/util"
+	"github.com/bps1980/zcash_bps/util"
 )
 
 // Allow only lowercase hexadecimal with 0x prefix
