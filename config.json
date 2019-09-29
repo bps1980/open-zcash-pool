@@ -66,18 +66,18 @@
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://bps_main:root@127.0.0.1:18232",
+			"url": "http://bps_main:root@192.168.0.1:18232",
 			"timeout": "10s"
 		},
 		{
 			"name": "backup",
-			"url": "http://bps_test:root@127.0.0.2:18232",
+			"url": "http://bps_test:root@192.168.0.1:18232",
 			"timeout": "10s"
 		}
 	],
 
 	"redis": {
-		"endpoint": "127.0.0.1:6379",
+		"endpoint": "192.168.0.1:6379",
 		"poolSize": 10,
 		"database": 0,
 		"password": "root"
