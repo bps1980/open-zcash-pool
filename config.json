@@ -7,7 +7,7 @@
 
 	"proxy": {
 		"enabled": true,
-		"listen": "0.0.0.0:8888",
+		"listen": "192.168.0.1:8888",
 		"limitHeadersSize": 1024,
 		"limitBodySize": 256,
 		"behindReverseProxy": false,
@@ -21,7 +21,7 @@
 
 		"stratum": {
 			"enabled": true,
-			"listen": "0.0.0.0:8008",
+			"listen": "192.168.0.1:8008",
 			"timeout": "120s",
 			"maxConn": 8192
 		},
@@ -92,7 +92,7 @@
 		"immatureDepth": 20,
 		"keepTxFees": false,
 		"interval": "10m",
-		"daemon": "http://bps_main:root@127.0.0.1:18232",
+		"daemon": "http://bps_main:root@192.168.0.1:18232",
 		"timeout": "10s"
 	}
 }
