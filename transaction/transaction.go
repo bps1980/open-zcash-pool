@@ -8,7 +8,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/jkkgbe/open-zcash-pool/util"
+	"github.com/bps1980/zcash_bps/util"
 	zecl "github.com/jkkgbe/zcash-light"
 )
 
