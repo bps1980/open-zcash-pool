@@ -66,12 +66,12 @@
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://main:root@127.0.0.1:8233",
+			"url": "http://yourZcashNodeUsername:yourZcashNodePasswordt@127.0.0.1:8233",
 			"timeout": "10s"
 		},
 		{
 			"name": "backup",
-			"url": "http://test:root@127.0.0.1:18232",
+			"url": "http://yourZcashNodeUsername:yourZcashNodePassword@127.0.0.1:8233",
 			"timeout": "10s"
 		}
 	],
@@ -92,7 +92,7 @@
 		"immatureDepth": 20,
 		"keepTxFees": false,
 		"interval": "10m",
-		"daemon": "http://main:root@127.0.0.1:8233",
+		"daemon": "http://yourZcashNodeUsername:yourZcashNodePassword@127.0.0.1:8233",
 		"timeout": "10s"
 	}
 }
