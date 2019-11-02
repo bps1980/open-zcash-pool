@@ -15,7 +15,7 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//localhost:8084/',
+      ApiUrl: '//localhost:80/',
 
       // HTTP mining endpoint
       HttpHost: 'www.zcashbpsmining.io',
@@ -23,7 +23,7 @@ module.exports = function(environment) {
 
       // Stratum mining endpoint
       StratumHost: 'zcashbpsmining.io',
-      StratumPort: 4554,
+      StratumPort: 80,
 
       // Fee and payout details
       PoolFee: '1%',
@@ -38,7 +38,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://localhost:8084/'
+    ENV.APP.ApiUrl = 'http://localhost:80/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
