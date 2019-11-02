@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'open-ethereum-pool',
+    modulePrefix: 'zcash_bps',
     environment: environment,
     rootURL: '/',
     locationType: 'hash',
@@ -15,15 +15,15 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//localhost:8082/',
+      ApiUrl: '//localhost:8084/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://example.net',
-      HttpPort: 8888,
+      HttpHost: 'www.zcashbpsmining.io',
+      HttpPort: 80,
 
       // Stratum mining endpoint
-      StratumHost: 'example.net',
-      StratumPort: 8008,
+      StratumHost: 'zcashbpsmining.io',
+      StratumPort: 4554,
 
       // Fee and payout details
       PoolFee: '1%',
@@ -38,7 +38,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://localhost:8080/'
+    ENV.APP.ApiUrl = 'http://localhost:8084/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
